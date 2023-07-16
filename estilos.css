@@ -1,0 +1,206 @@
+@import url("https://fonts.googleapis.com/css2?family=Geologica:wght@100;200;300;600;700&family=Libre+Franklin:ital,wght@0,100;0,200;0,400;0,600;0,700;1,100;1,600;1,700;1,900&family=Nunito:ital,wght@0,600;1,200&family=Poppins:wght@100;400;600&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Geologica", sans-serif;
+  font-family: "Libre Franklin", sans-serif;
+  font-family: "Nunito", sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-image: url(react-wallpaper.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header {
+  background-color: transparent;
+  color: white;
+  height: auto;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__logo {
+  margin: 10px;
+  background-size: contain;
+}
+
+.header__logo {
+  width: 80px;
+  height: 80px;
+  border-radius: 20px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 10px;
+}
+
+.nav__links {
+  display: flex;
+  align-content: space-between;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.boton:hover {
+  border: 1px solid black;
+}
+
+.link {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+  position: relative;
+  top: 10px;
+}
+.boton {
+  width: 100px;
+  margin: 0;
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 100%;
+
+  background-position: center;
+  background-repeat: no-repeat;
+
+  background-size: cover;
+}
+
+.form__box {
+  position: relative;
+  width: 400px;
+  height: 450px;
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 20px;
+  backdrop-filter: blur(15px);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h2 {
+  font-size: 2em;
+  text-align: center;
+  color: white;
+}
+
+.modifer {
+  position: relative;
+  margin: 30px 0;
+  width: 310px;
+  border-bottom: 2px solid white;
+}
+
+.label__imputs {
+  position: absolute;
+  top: 50%;
+  left: 5px;
+  transform: translateY(-50%);
+  color: white;
+  font-size: 1rem;
+  pointer-events: none;
+  transition: 0.5s;
+}
+
+input:focus ~ label {
+  top: -5px;
+}
+
+.input--email:valid ~ .label__email {
+  top: -5px;
+}
+
+.input--password:valid ~ .label__pass {
+  top: -5px;
+}
+
+input:valid ~ label {
+  top: -5px;
+}
+
+.input {
+  width: 100%;
+  height: 50px;
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 1em;
+  padding: 0 35px 0 5px;
+  color: white;
+}
+
+.icon {
+  position: absolute;
+  right: 8px;
+  top: 20px;
+  color: white;
+  font-size: 1.2rem;
+}
+
+.form__forget {
+  margin: -15px 0 15px;
+  color: white;
+  font-size: 0.9rem;
+  display: flex;
+  justify-content: center;
+}
+
+.label__check,
+.form__check {
+  margin-right: 3px;
+}
+
+.form__cta {
+  color: white;
+  text-decoration: none;
+}
+
+.form__cta:hover {
+  text-decoration: underline;
+}
+
+button {
+  width: 100%;
+  height: 40px;
+  border: none;
+  border-radius: 30px;
+  font-weight: 600;
+  font-size: 1rem;
+  color: black;
+  cursor: pointer;
+  outline: none;
+}
+
+.reguister {
+  margin: 10px 0 20px;
+  color: white;
+  text-align: center;
+}
+
+.reguiter__cta {
+  text-decoration: none;
+  color: white;
+}
+
+.reguiter__cta:hover {
+  text-decoration: underline;
+}

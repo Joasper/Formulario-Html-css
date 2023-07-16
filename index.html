@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="estilos.css" />
+  </head>
+  <body>
+    <header class="header">
+      <img src="javascript-logo-4.png" alt="" class="header__logo" />
+      <nav class="nav__links">
+        <a href="" class="link nav__home">Home</a>
+        <a href="" class="link nav__home">About Us</a>
+        <a href="" class="link nav__home">Product</a>
+        <a href="" class="link nav__home">More Info</a>
+        <button class="boton">Login</button>
+      </nav>
+    </header>
+
+    <section class="form">
+      <div class="form__box">
+        <div class="form__value">
+          <form action="">
+            <h2 class="form__title">Login</h2>
+
+            <div class="modifer form__input--email">
+              <ion-icon name="mail-outline" class="icon"></ion-icon>
+              <input
+                type="text"
+                name="email"
+                id="imput"
+                class="input input--email"
+                required
+              /><label for="" class="label__imputs label__email">Email</label>
+            </div>
+            <div class="modifer form__input--pass">
+              <ion-icon name="lock-closed-outline" class="icon"></ion-icon>
+              <input
+                type="password"
+                name="password"
+                id="imput"
+                class="input input--password"
+                required
+              /><label for="" class="label__imputs label__pass">Password</label>
+            </div>
+
+            <div class="form__forget">
+              <label for="" class="label__check"
+                ><input
+                  type="checkbox"
+                  name=""
+                  id="check"
+                  class="form__check"
+                />Remenber Me
+                <a href="" class="form__cta">¿Forget your password?</a></label
+              >
+            </div>
+            <button>Login</button>
+            <div class="reguister">
+              <p>
+                ¿Do you don't an account?
+                <a href="" class="reguiter__cta">Register</a>
+              </p>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
